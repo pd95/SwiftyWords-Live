@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @Environment(\.dismiss) private var dismiss
     var category: Category
     var levelNumber: Int
 
     @StateObject private var model: LevelViewModel
+    @State private var showCongratulationAlert = false
 
     init(category: Category, levelNumber: Int) {
         self.category = category
@@ -78,6 +80,18 @@ struct ContentView: View {
                 }
             }
         }
+        .onChange(of: model.isCompleted, perform: { isCompleted in
+            if isCompleted {
+                showCongratulationAlert = true
+            }
+        })
+        .alert("🎉 Well done! 🎉", isPresented: $showCongratulationAlert, actions: {
+            Button("Continue") {
+                dismiss()
+            }
+        }, message: {
+            Text("You have successfully completed level \(levelNumber+1).")
+        })
         .padding()
         .navigationTitle("Level \(levelNumber + 1)")
         .navigationBarTitleDisplayMode(.inline)

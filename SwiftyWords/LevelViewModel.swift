@@ -11,6 +11,7 @@ class LevelViewModel: ObservableObject {
     private(set) var answers: [Answer]
     private(set) var segments: [Segment]
     @Published var selectedSegments = [Int]()
+    @Published var isCompleted = false
 
     init(words: [Word]) {
         answers = words.map(Answer.init)
@@ -36,6 +37,10 @@ class LevelViewModel: ObservableObject {
         if let match {
             selectedSegments.removeAll()
             answers[match].isSolved = true
+
+            if answers.allSatisfy(\.isSolved) {
+                isCompleted = true
+            }
         }
     }
 

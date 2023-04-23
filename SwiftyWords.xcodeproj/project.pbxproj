@@ -11,6 +11,33 @@
 		17DCF26829F43EEF0041F089 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DCF26729F43EEF0041F089 /* ContentView.swift */; };
 		17DCF26A29F43EF00041F089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF26929F43EF00041F089 /* Assets.xcassets */; };
 		17DCF26D29F43EF00041F089 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF26C29F43EF00041F089 /* Preview Assets.xcassets */; };
+		17DCF28A29F43F000041F089 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DCF27329F43F000041F089 /* Bundle-Decodable.swift */; };
+		17DCF28B29F43F000041F089 /* Categories.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF27529F43F000041F089 /* Categories.json */; };
+		17DCF28C29F43F000041F089 /* Music.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF27629F43F000041F089 /* Music.json */; };
+		17DCF28D29F43F000041F089 /* Hobbies.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF27729F43F000041F089 /* Hobbies.json */; };
+		17DCF28E29F43F000041F089 /* Plants.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF27829F43F000041F089 /* Plants.json */; };
+		17DCF28F29F43F000041F089 /* VideoGames.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF27929F43F000041F089 /* VideoGames.json */; };
+		17DCF29029F43F000041F089 /* Places.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF27A29F43F000041F089 /* Places.json */; };
+		17DCF29129F43F000041F089 /* Random.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF27B29F43F000041F089 /* Random.json */; };
+		17DCF29229F43F000041F089 /* SciFiFantasy.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF27C29F43F000041F089 /* SciFiFantasy.json */; };
+		17DCF29329F43F000041F089 /* Weather.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF27D29F43F000041F089 /* Weather.json */; };
+		17DCF29429F43F000041F089 /* Animals.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF27E29F43F000041F089 /* Animals.json */; };
+		17DCF29529F43F000041F089 /* MoviesAndTV.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF27F29F43F000041F089 /* MoviesAndTV.json */; };
+		17DCF29629F43F000041F089 /* Sports.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF28029F43F000041F089 /* Sports.json */; };
+		17DCF29729F43F000041F089 /* Computers.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF28129F43F000041F089 /* Computers.json */; };
+		17DCF29829F43F000041F089 /* Foods.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF28229F43F000041F089 /* Foods.json */; };
+		17DCF29929F43F000041F089 /* Brands.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF28329F43F000041F089 /* Brands.json */; };
+		17DCF29A29F43F000041F089 /* Pokemon.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF28429F43F000041F089 /* Pokemon.json */; };
+		17DCF29B29F43F000041F089 /* People.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF28529F43F000041F089 /* People.json */; };
+		17DCF29C29F43F000041F089 /* School.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF28629F43F000041F089 /* School.json */; };
+		17DCF29D29F43F000041F089 /* Celebrities.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF28729F43F000041F089 /* Celebrities.json */; };
+		17DCF29E29F43F000041F089 /* Manga.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF28829F43F000041F089 /* Manga.json */; };
+		17DCF29F29F43F000041F089 /* Science.json in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF28929F43F000041F089 /* Science.json */; };
+		17DCF2A129F43FBF0041F089 /* DataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DCF2A029F43FBF0041F089 /* DataTypes.swift */; };
+		17DCF2A329F442470041F089 /* LevelViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DCF2A229F442470041F089 /* LevelViewModel.swift */; };
+		17DCF2A529F449810041F089 /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DCF2A429F449810041F089 /* SegmentView.swift */; };
+		17DCF2A729F44BCD0041F089 /* LevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DCF2A629F44BCD0041F089 /* LevelsView.swift */; };
+		17DCF2A929F44CD50041F089 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DCF2A829F44CD50041F089 /* CategoriesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +46,33 @@
 		17DCF26729F43EEF0041F089 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17DCF26929F43EF00041F089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17DCF26C29F43EF00041F089 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17DCF27329F43F000041F089 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		17DCF27529F43F000041F089 /* Categories.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Categories.json; sourceTree = "<group>"; };
+		17DCF27629F43F000041F089 /* Music.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Music.json; sourceTree = "<group>"; };
+		17DCF27729F43F000041F089 /* Hobbies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hobbies.json; sourceTree = "<group>"; };
+		17DCF27829F43F000041F089 /* Plants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Plants.json; sourceTree = "<group>"; };
+		17DCF27929F43F000041F089 /* VideoGames.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VideoGames.json; sourceTree = "<group>"; };
+		17DCF27A29F43F000041F089 /* Places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Places.json; sourceTree = "<group>"; };
+		17DCF27B29F43F000041F089 /* Random.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Random.json; sourceTree = "<group>"; };
+		17DCF27C29F43F000041F089 /* SciFiFantasy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SciFiFantasy.json; sourceTree = "<group>"; };
+		17DCF27D29F43F000041F089 /* Weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Weather.json; sourceTree = "<group>"; };
+		17DCF27E29F43F000041F089 /* Animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Animals.json; sourceTree = "<group>"; };
+		17DCF27F29F43F000041F089 /* MoviesAndTV.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MoviesAndTV.json; sourceTree = "<group>"; };
+		17DCF28029F43F000041F089 /* Sports.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Sports.json; sourceTree = "<group>"; };
+		17DCF28129F43F000041F089 /* Computers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Computers.json; sourceTree = "<group>"; };
+		17DCF28229F43F000041F089 /* Foods.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Foods.json; sourceTree = "<group>"; };
+		17DCF28329F43F000041F089 /* Brands.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Brands.json; sourceTree = "<group>"; };
+		17DCF28429F43F000041F089 /* Pokemon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Pokemon.json; sourceTree = "<group>"; };
+		17DCF28529F43F000041F089 /* People.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = People.json; sourceTree = "<group>"; };
+		17DCF28629F43F000041F089 /* School.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = School.json; sourceTree = "<group>"; };
+		17DCF28729F43F000041F089 /* Celebrities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Celebrities.json; sourceTree = "<group>"; };
+		17DCF28829F43F000041F089 /* Manga.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Manga.json; sourceTree = "<group>"; };
+		17DCF28929F43F000041F089 /* Science.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Science.json; sourceTree = "<group>"; };
+		17DCF2A029F43FBF0041F089 /* DataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTypes.swift; sourceTree = "<group>"; };
+		17DCF2A229F442470041F089 /* LevelViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewModel.swift; sourceTree = "<group>"; };
+		17DCF2A429F449810041F089 /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
+		17DCF2A629F44BCD0041F089 /* LevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsView.swift; sourceTree = "<group>"; };
+		17DCF2A829F44CD50041F089 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +106,14 @@
 			isa = PBXGroup;
 			children = (
 				17DCF26529F43EEF0041F089 /* SwiftyWordsApp.swift */,
+				17DCF2A829F44CD50041F089 /* CategoriesView.swift */,
 				17DCF26729F43EEF0041F089 /* ContentView.swift */,
+				17DCF2A629F44BCD0041F089 /* LevelsView.swift */,
+				17DCF2A429F449810041F089 /* SegmentView.swift */,
+				17DCF2A029F43FBF0041F089 /* DataTypes.swift */,
+				17DCF2A229F442470041F089 /* LevelViewModel.swift */,
+				17DCF27329F43F000041F089 /* Bundle-Decodable.swift */,
+				17DCF27429F43F000041F089 /* Categories */,
 				17DCF26929F43EF00041F089 /* Assets.xcassets */,
 				17DCF26B29F43EF00041F089 /* Preview Content */,
 			);
@@ -65,6 +126,34 @@
 				17DCF26C29F43EF00041F089 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17DCF27429F43F000041F089 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				17DCF27E29F43F000041F089 /* Animals.json */,
+				17DCF28329F43F000041F089 /* Brands.json */,
+				17DCF27529F43F000041F089 /* Categories.json */,
+				17DCF28729F43F000041F089 /* Celebrities.json */,
+				17DCF28129F43F000041F089 /* Computers.json */,
+				17DCF28229F43F000041F089 /* Foods.json */,
+				17DCF27729F43F000041F089 /* Hobbies.json */,
+				17DCF28829F43F000041F089 /* Manga.json */,
+				17DCF27F29F43F000041F089 /* MoviesAndTV.json */,
+				17DCF27629F43F000041F089 /* Music.json */,
+				17DCF28529F43F000041F089 /* People.json */,
+				17DCF27A29F43F000041F089 /* Places.json */,
+				17DCF27829F43F000041F089 /* Plants.json */,
+				17DCF28429F43F000041F089 /* Pokemon.json */,
+				17DCF27B29F43F000041F089 /* Random.json */,
+				17DCF28629F43F000041F089 /* School.json */,
+				17DCF28929F43F000041F089 /* Science.json */,
+				17DCF27C29F43F000041F089 /* SciFiFantasy.json */,
+				17DCF28029F43F000041F089 /* Sports.json */,
+				17DCF27929F43F000041F089 /* VideoGames.json */,
+				17DCF27D29F43F000041F089 /* Weather.json */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +214,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17DCF29629F43F000041F089 /* Sports.json in Resources */,
+				17DCF28B29F43F000041F089 /* Categories.json in Resources */,
+				17DCF28E29F43F000041F089 /* Plants.json in Resources */,
+				17DCF29A29F43F000041F089 /* Pokemon.json in Resources */,
+				17DCF28F29F43F000041F089 /* VideoGames.json in Resources */,
+				17DCF29529F43F000041F089 /* MoviesAndTV.json in Resources */,
+				17DCF29129F43F000041F089 /* Random.json in Resources */,
+				17DCF29029F43F000041F089 /* Places.json in Resources */,
+				17DCF29729F43F000041F089 /* Computers.json in Resources */,
+				17DCF29F29F43F000041F089 /* Science.json in Resources */,
+				17DCF29329F43F000041F089 /* Weather.json in Resources */,
+				17DCF28D29F43F000041F089 /* Hobbies.json in Resources */,
 				17DCF26D29F43EF00041F089 /* Preview Assets.xcassets in Resources */,
+				17DCF29229F43F000041F089 /* SciFiFantasy.json in Resources */,
+				17DCF29429F43F000041F089 /* Animals.json in Resources */,
+				17DCF29829F43F000041F089 /* Foods.json in Resources */,
+				17DCF29C29F43F000041F089 /* School.json in Resources */,
 				17DCF26A29F43EF00041F089 /* Assets.xcassets in Resources */,
+				17DCF28C29F43F000041F089 /* Music.json in Resources */,
+				17DCF29D29F43F000041F089 /* Celebrities.json in Resources */,
+				17DCF29B29F43F000041F089 /* People.json in Resources */,
+				17DCF29E29F43F000041F089 /* Manga.json in Resources */,
+				17DCF29929F43F000041F089 /* Brands.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +248,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				17DCF26829F43EEF0041F089 /* ContentView.swift in Sources */,
+				17DCF2A129F43FBF0041F089 /* DataTypes.swift in Sources */,
+				17DCF2A329F442470041F089 /* LevelViewModel.swift in Sources */,
 				17DCF26629F43EEF0041F089 /* SwiftyWordsApp.swift in Sources */,
+				17DCF2A729F44BCD0041F089 /* LevelsView.swift in Sources */,
+				17DCF2A529F449810041F089 /* SegmentView.swift in Sources */,
+				17DCF2A929F44CD50041F089 /* CategoriesView.swift in Sources */,
+				17DCF28A29F43F000041F089 /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

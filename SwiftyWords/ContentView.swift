@@ -83,6 +83,7 @@ struct ContentView: View {
         .onChange(of: model.isCompleted, perform: { isCompleted in
             if isCompleted {
                 showCongratulationAlert = true
+                UserDefaults.standard.setCompletionDate(for: category, level: levelNumber)
             }
         })
         .alert("🎉 Well done! 🎉", isPresented: $showCongratulationAlert, actions: {

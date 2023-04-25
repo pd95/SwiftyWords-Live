@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17C210A829F84E4D006B9317 /* UserDefaults-HighScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C210A729F84E4D006B9317 /* UserDefaults-HighScores.swift */; };
 		17DCF26629F43EEF0041F089 /* SwiftyWordsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DCF26529F43EEF0041F089 /* SwiftyWordsApp.swift */; };
 		17DCF26829F43EEF0041F089 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DCF26729F43EEF0041F089 /* ContentView.swift */; };
 		17DCF26A29F43EF00041F089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17DCF26929F43EF00041F089 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17C210A729F84E4D006B9317 /* UserDefaults-HighScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults-HighScores.swift"; sourceTree = "<group>"; };
 		17DCF26229F43EEF0041F089 /* SwiftyWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17DCF26529F43EEF0041F089 /* SwiftyWordsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyWordsApp.swift; sourceTree = "<group>"; };
 		17DCF26729F43EEF0041F089 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,12 +112,13 @@
 			children = (
 				17DCF26529F43EEF0041F089 /* SwiftyWordsApp.swift */,
 				17DCF2A829F44CD50041F089 /* CategoriesView.swift */,
-				17DCF26729F43EEF0041F089 /* ContentView.swift */,
 				17DCF2A629F44BCD0041F089 /* LevelsView.swift */,
+				17DCF26729F43EEF0041F089 /* ContentView.swift */,
 				17DCF2A429F449810041F089 /* SegmentView.swift */,
 				17DCF2A029F43FBF0041F089 /* DataTypes.swift */,
 				17DCF2A229F442470041F089 /* LevelViewModel.swift */,
 				17DCF27329F43F000041F089 /* Bundle-Decodable.swift */,
+				17C210A729F84E4D006B9317 /* UserDefaults-HighScores.swift */,
 				17DCF27429F43F000041F089 /* Categories */,
 				17DCF26929F43EF00041F089 /* Assets.xcassets */,
 				17DCF26B29F43EF00041F089 /* Preview Content */,
@@ -255,6 +258,7 @@
 				17DCF2A129F43FBF0041F089 /* DataTypes.swift in Sources */,
 				17DCF2A329F442470041F089 /* LevelViewModel.swift in Sources */,
 				17DCF26629F43EEF0041F089 /* SwiftyWordsApp.swift in Sources */,
+				17C210A829F84E4D006B9317 /* UserDefaults-HighScores.swift in Sources */,
 				17DCF2A729F44BCD0041F089 /* LevelsView.swift in Sources */,
 				17DCF2A529F449810041F089 /* SegmentView.swift in Sources */,
 				17DCF2A929F44CD50041F089 /* CategoriesView.swift in Sources */,
